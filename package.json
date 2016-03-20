@@ -1,5 +1,5 @@
 {
-  "name": "OcamlYoJson",
+  "name": "OcamlYojson",
   "version": "1.3.2",
   "scripts": {
     "postinstall": "mkdir src && node_modules/OcamlCppo/cppo -n yojson.mli.cppo -o src/yojson.mli && ocamllex read.mll -o read.ml && node_modules/OcamlCppo/cppo -D \"VERSION 1.3.2\" yojson.ml.cppo -o src/yojson.ml"
@@ -11,7 +11,7 @@
     "CommonML": "git://github.com/jordwalke/CommonML.git"
   },
   "CommonML": {
-    "exports": ["YoJson"],
+    "exports": ["Yojson"],
     "compileFlags": ["-w -3"]
   }
 }

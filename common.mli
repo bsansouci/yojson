@@ -1,3 +1,6 @@
+open OcamlBiniou
+open OcamlEasy_format
+
 val version : string
 
 exception Json_error of string

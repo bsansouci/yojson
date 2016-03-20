@@ -1,4 +1,5 @@
 open Printf
+open OcamlEasy_format
 open Easy_format
 
 let array = list

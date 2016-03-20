@@ -1,3 +1,5 @@
+open OcamlBiniou
+
 let version = STRINGIFY(VERSION)
 
 exception Json_error of string

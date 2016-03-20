@@ -2,7 +2,7 @@
   "name": "OcamlYoJson",
   "version": "1.3.2",
   "scripts": {
-    "postinstall": "node_modules/OcamlCppo/cppo -n yojson.mli.cppo -o src/yojson.mli && ocamllex read.mll -o read.ml && node_modules/OcamlCppo/cppo -D \"VERSION 1.3.2\" yojson.ml.cppo -o src/yojson.ml"
+    "postinstall": "mkdir src && node_modules/OcamlCppo/cppo -n yojson.mli.cppo -o src/yojson.mli && ocamllex read.mll -o read.ml && node_modules/OcamlCppo/cppo -D \"VERSION 1.3.2\" yojson.ml.cppo -o src/yojson.ml"
   },
   "dependencies": {
     "OcamlCppo": "git://github.com/bsansouci/cppo.git",
